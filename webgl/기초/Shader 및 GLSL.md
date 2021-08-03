@@ -261,7 +261,7 @@ Varying
 
 Varying 은 `vertex shader`에서 `fragment shader`로 값을 전달하는 방법.
 
-Varying을 사용하면 vertex shader와 fragment shader 양쪽에 일치하는 varying 을 선언해야 함.
+Varying을 사용하면 `vertex shader와 fragment shader` 양쪽에 일치하는 varying 을 선언해야 함.
 
 각 정점마다 vertex shader의 varying 을 어떤 값으로 설정합니다.
 WebGL이 픽셀을 그릴 떄 이 값들 사이를 보관 후, fragment shader에서 대응하는 varying 으로 전달할 겁니다.
